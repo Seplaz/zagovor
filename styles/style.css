@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 100dvh;
+  height: 100svh;
   font-family: 'Unbounded';
   background-color: #333;
 }
@@ -18,7 +18,7 @@
 
 .main {
   display: grid;
-  grid: 0.5fr 0.1fr 1fr / 1fr;
+  grid: 0.2fr 0.1fr 0.5fr / 1fr;
   justify-content: center;
   width: 100%;
   height: 100dvh;
@@ -28,7 +28,7 @@
 
 .main_title {
   align-self: flex-end;
-  border-bottom: clamp(0.125rem, 0.0893rem + 0.1786vw, 0.25rem) solid #fff;
+  border-bottom: 3px solid #fff;
   font-size: clamp(1rem, 0.7857rem + 1.0714vw, 1.75rem);
 }
 
