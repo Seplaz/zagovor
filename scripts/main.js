@@ -9,13 +9,12 @@ let phrases = [
   { text: 'Энергетик' },
   { text: 'Кучу денег' },
   { text: 'Навоз' }
-
 ];
 
 function getRandomElement(arr) {
   let randIndex = Math.floor(Math.random() * arr.length);
   return arr[randIndex];
-}
+};
 
 let button = document.querySelector('.button');
 let phrase = document.querySelector('.phrase');
